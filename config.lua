@@ -5,12 +5,11 @@ return {
 	admin = {
 		owner = 227014422,
 		admins = {
-			[141956218] = true,
 			[227014422] = true
 		}
 	},
 	log_chat = -1001057801239,
-	channel = '@groupbutler_ch', --channel username with the '@'
+	channel = '@AllwenTeam', --channel username with the '@'
 	help_group = 'https://telegram.me/joinchat/CHYUej9jFxFN12MQqrLnUg', --group link, not username!
 	languages = 'languages.lua',
 	plugins = {
