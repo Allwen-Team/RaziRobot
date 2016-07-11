@@ -163,7 +163,6 @@ return {
                     ..'...and more, below you can find the "all commands" button to get the whole list!\n'
                     ..'\nTo use me, *you need to add me as administrator of the group*, or Telegram won\'t let me work! (if you have some doubts about this, check [This Post In Channel](https://telegram.me/BotManuals/3)'
                     ..'\nYou can report bugs/send feedbacks/ask a question to my creator just using "`/c <feedback>`" command. Send All Your Messages :)',
-                    ..'\nCreated By [Allwen Team](https://telegram.me/allwenteam\nCopyRight *Allwen*',
             group_success = '_I\'ve Sent You help Message In Pv.Check @UltraAntiSpamBot_',
             group_not_success = '_Please message me first so I can message you_',
             initial = 'Choose the *role* to see the available commands:',
