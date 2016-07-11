@@ -102,7 +102,7 @@ return {
                             .."You can compose your welcome message with the rules, the description and the moderators list.\n"
                             .."You can compose it by writing `/welcome` followed by the codes of what the welcome message has to include.\n"
                             .."_Codes_ : *r* = rules; *a* = description (about); *m* = adminlist.\n"
-                            .."For example, with \"`/welcome rm`\", the welcome message will show rules and moderators list",
+                            .."For example, with \"`/welcome rm`\", the welcome message will show rules and moderators list\*Allwen Team*",
                 extra = "*Moderators: extra commands*\n\n"
                         .."`/extra [#trigger] [reply]` = set a reply to be sent when someone writes the trigger.\n"
                         .."_Example_ : with \"`/extra #hello Good morning!`\", the bot will reply \"Good morning!\" each time someone writes #hello.\n"
@@ -110,7 +110,7 @@ return {
                         .."`/extra list` = get the list of your custom commands.\n"
                         .."`/extra del [#trigger]` = delete the trigger and its message.\n"
                         .."\n*Note:* the markdown is supported. If the text sent breaks the markdown, the bot will notify that something is wrong.\n"
-                        .."For a correct use of the markdown, check [this post](https://telegram.me/GroupButler_ch/46) in the channel",
+                        .."For a correct use of the markdown, check [This Post](https://telegram.me/BotManuals/2) in the channel",
                 warns = "*Moderators: warns*\n\n"
                         .."`/warn [by reply]` = warn a user. Once the max number is reached, he will be kicked/banned.\n"
                         .."`/warnmax` = set the max number of the warns before the kick/ban.\n"
@@ -135,7 +135,7 @@ return {
                             .."`/menu` = manage the group settings in private with an handy inline keyboard.\n"
                             .."`/report [on/off]` (by reply) = the user won't be able (_off_) or will be able (_on_) to use \"@admin\" command.\n",
             },
-            all = '*Commands for all*:\n'
+            all = '*Command For All members*:\n'
                     ..'`/dashboard` : see all the group info from private\n'
                     ..'`/rules` (if unlocked) : show the group rules\n'
                     ..'`/about` (if unlocked) : show the group description\n'
@@ -151,8 +151,8 @@ return {
                     ..'`/help` : show this message.'
 		            ..'\n\nIf you like this bot, please leave the vote you think it deserves [here](https://telegram.me/storebot?start=groupbutler_bot)',
 		    private = 'Hey, *&&&1*!\n'
-                    ..'I\'m a simple bot created in order to help people to manage their groups.\n'
-                    ..'\n*What can I do for you?*\n'
+                    ..'Im A AntiSpam Bot Created By AllwenTeam!\n'
+                    ..'\n*My Works :)*\n'
                     ..'Wew, I have a lot of useful tools!\n'
                     ..'• You can *kick or ban* users (even in normal groups) by reply/username\n'
                     ..'• Set rules and a description\n'
@@ -161,9 +161,10 @@ return {
                     ..'• Warn users, and kick/ban them if they reach a max number of warns\n'
                     ..'• Warn or kick users if they send a specific media\n'
                     ..'...and more, below you can find the "all commands" button to get the whole list!\n'
-                    ..'\nTo use me, *you need to add me as administrator of the group*, or Telegram won\'t let me work! (if you have some doubts about this, check [this post](https://telegram.me/GroupButler_ch/63))'
-                    ..'\nYou can report bugs/send feedbacks/ask a question to my creator just using "`/c <feedback>`" command. EVERYTHING IS WELCOME!',
-            group_success = '_I\'ve sent you the help message in private_',
+                    ..'\nTo use me, *you need to add me as administrator of the group*, or Telegram won\'t let me work! (if you have some doubts about this, check [This Post In Channel](https://telegram.me/BotManuals/3)'
+                    ..'\nYou can report bugs/send feedbacks/ask a question to my creator just using "`/c <feedback>`" command. Send All Your Messages :)',
+                    ..'\nCreated By [Allwen Team](https://telegram.me/allwenteam\nCopyRight *Allwen*',
+            group_success = '_I\'ve Sent You help Message In Pv.Check @UltraAntiSpamBot_',
             group_not_success = '_Please message me first so I can message you_',
             initial = 'Choose the *role* to see the available commands:',
             kb_header = 'Tap on a button to see the *related commands*'
@@ -178,7 +179,7 @@ return {
             link_unsetted = 'Link *unsetted*',
         },
         mod = {
-            modlist = '*Creator*:\n&&&1\n\n*Admins*:\n&&&2'
+            modlist = '*Creator Of group*:\n&&&1\n\n*Admins Og Group*:\n&&&2'
         },
         report = {
             no_input = 'Write your suggestions/bugs/doubt near the !',
@@ -186,7 +187,7 @@ return {
             feedback_reply = '*Hello, this is a reply from the bot owner*:\n&&&1',
         },
         service = {
-            welcome = 'Hi &&&1, and welcome to *&&&2*!',
+            welcome = 'Hi Dear &&&1, welcome to *&&&2*!I`m *UltraAntiSpam* Bot 7 I help You In Your Groups!',
             welcome_rls = 'Total anarchy!',
             welcome_abt = 'No description for this group.',
             welcome_modlist = '\n\n*Creator*:\n&&&1\n*Admins*:\n&&&2',
