@@ -102,7 +102,7 @@ return {
                             .."You can compose your welcome message with the rules, the description and the moderators list.\n"
                             .."You can compose it by writing `/welcome` followed by the codes of what the welcome message has to include.\n"
                             .."_Codes_ : *r* = rules; *a* = description (about); *m* = adminlist.\n"
-                            .."For example, with \"`/welcome rm`\", the welcome message will show rules and moderators list\*Allwen Team*",
+                            .."For example, with \"`/welcome rm`\", the welcome message will show rules and moderators list,Created by*Allwen Team*",
                 extra = "*Moderators: extra commands*\n\n"
                         .."`/extra [#trigger] [reply]` = set a reply to be sent when someone writes the trigger.\n"
                         .."_Example_ : with \"`/extra #hello Good morning!`\", the bot will reply \"Good morning!\" each time someone writes #hello.\n"
