@@ -39,9 +39,9 @@ local function make_keyboard(mod, mod_current_position)
     end
     local bottom_bar
     if mod then
-		bottom_bar = {{text = '🔰 User commands', callback_data = '!user'}}
+		bottom_bar = {{text = '🔰 Commands For Group Users', callback_data = '!user'}}
 	else
-	    bottom_bar = {{text = '🔰 Admin commands', callback_data = '!mod'}}
+	    bottom_bar = {{text = '🔰 Command for Admins', callback_data = '!mod'}}
 	end
 	table.insert(bottom_bar, {text = 'Info', callback_data = '!info_button'}) --insert the "Info" button
 	table.insert(keyboard.inline_keyboard, bottom_bar)
@@ -68,10 +68,10 @@ local function do_keyboard_private()
     keyboard.inline_keyboard = {
     	{
     		{text = '👥 Add me to a group', url = 'https://telegram.me/'..bot.username..'?startgroup=new'},
-    		{text = '📢 Bot channel', url = 'https://telegram.me/'..config.channel:gsub('@', '')},
+    		{text = '📢 Allwen Team Channel', url = 'https://telegram.me/'..config.channel:gsub('@', '')},
 	    },
 	    {
-	        {text = '📕 All the commands', callback_data = '!user'}
+	        {text = '📕 See All Commands Of me!', callback_data = '!user'}
         }
     }
     return keyboard
@@ -81,7 +81,7 @@ local function do_keyboard_startme()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = 'Start me', url = 'https://telegram.me/'..bot.username}
+    		{text = 'Start Ultra! :)', url = 'https://telegram.me/'..bot.username}
 	    }
     }
     return keyboard
