@@ -50,7 +50,7 @@ return {
         },
         not_mod = 'You are *not* a moderator',
         breaks_markdown = 'This text breaks the markdown.\nMore info about a proper use of markdown [here](https://telegram.me/GroupButler_ch/46).',
-        credits = '*Some useful links:*',
+        credits = '*Some Links from Allwen Team!*',
         extra = {
             setted = '&&&1 command saved!',
 			new_command = '*New command set!*\n&&&1\n&&&2',
@@ -163,26 +163,26 @@ return {
                     ..'...and more, below you can find the "all commands" button to get the whole list!\n'
                     ..'\nTo use me, *you need to add me as administrator of the group*, or Telegram won\'t let me work! (if you have some doubts about this, check [This Post In Channel](https://telegram.me/BotManuals/3)'
                     ..'\nYou can report bugs/send feedbacks/ask a question to my creator just using "`/c <feedback>`" command. Send All Your Messages :)',
-            group_success = '_I\'ve Sent You help Message In Pv.Check @UltraAntiSpamBot_',
+            group_success = '_I\'ve Sent You help Message In Pv.Check_ @UltraAntiSpamBot',
             group_not_success = '_Please message me first so I can message you_',
-            initial = 'Choose the *role* to see the available commands:',
+            initial = 'Choose One!',
             kb_header = 'Tap on a button to see the *related commands*'
         },
         links = {
             no_link = '*No link* for this group. Ask the owner to generate one',
             link = '[&&&1](&&&2)',
-            link_no_input = 'This is not a *public supergroup*, so you need to write the link near /setlink',
+            link_no_input = 'Allwen :\,You Dont *Seted* Link.Send /setlink!',
             link_invalid = 'This link is *not valid!*',
             link_updated = 'The link has been updated.\n*Here\'s the new link*: [&&&1](&&&2)',
             link_setted = 'The link has been setted.\n*Here\'s the link*: [&&&1](&&&2)',
             link_unsetted = 'Link *unsetted*',
         },
         mod = {
-            modlist = '*Creator Of group*:\n&&&1\n\n*Admins Og Group*:\n&&&2'
+            modlist = '*Creator Of group*:\n&&&1\n\n*Admins Of Group*:\n&&&2'
         },
         report = {
             no_input = 'Write your suggestions/bugs/doubt near the !',
-            sent = 'Feedback sent!',
+            sent = 'Your message has been recive to allwen!',
             feedback_reply = '*Hello, this is a reply from the bot owner*:\n&&&1',
         },
         service = {
