@@ -8,7 +8,7 @@ return {
 			[227014422] = true
 		}
 	},
-	log_chat = -1001057801239,
+	log_chat = -1001069634662,
 	channel = '@AllwenTeam', --channel username with the '@'
 	help_group = 'https://telegram.me/joinchat/CHYUej9jFxFN12MQqrLnUg', --group link, not username!
 	languages = 'languages.lua',
