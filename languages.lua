@@ -171,7 +171,7 @@ return {
         links = {
             no_link = '*No link* for this group. Ask the owner to generate one',
             link = '[&&&1](&&&2)',
-            link_no_input = 'Allwen :\,You Dont *Seted* Link.Send /setlink!',
+            link_no_input = 'This Is Not *Public*,Send /setlink',
             link_invalid = 'This link is *not valid!*',
             link_updated = 'The link has been updated.\n*Here\'s the new link*: [&&&1](&&&2)',
             link_setted = 'The link has been setted.\n*Here\'s the link*: [&&&1](&&&2)',
