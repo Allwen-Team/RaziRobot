@@ -13,9 +13,9 @@ local function doKeyboard_media(chat_id)
     for i,media in pairs(config.media_list) do
     	local status = (db:hget('chat:'..chat_id..':media', media)) or 'allowed'
         if status == 'allowed' then
-            status = '✅'
+            status = ' Allowed ✅'
         else
-            status = '🔐 '..status
+            status = 'Not Allowed 🔐 '..status
         end
         local line = {
             {text = media, callback_data = 'mediallert'},
@@ -28,8 +28,8 @@ local function doKeyboard_media(chat_id)
     local max = (db:hget('chat:'..chat_id..':warnsettings', 'mediamax')) or 2
     table.insert(keyboard.inline_keyboard, {{text = 'Warns (media) 📍 '..max, callback_data = 'mediallert'}})
     local warn = {
-        {text = '➖', callback_data = 'mediawarn:dim:'..chat_id},
-        {text = '➕', callback_data = 'mediawarn:raise:'..chat_id},
+        {text = '➖ Low Warn',callback_data = 'mediawarn:dim:'..chat_id},
+        {text = '➕ Add Warn'  callback_data = 'mediawarn:raise:'..chat_id},
     }
     table.insert(keyboard.inline_keyboard, warn)
     return keyboard
